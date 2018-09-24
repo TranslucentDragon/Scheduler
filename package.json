@@ -1,0 +1,23 @@
+{
+  "name": "Scheduler",
+  "version": "0.1.0",
+  "description": "Itential Not Real Stuff",
+  "dependencies": {
+    "mongodb": "^2.2.26"
+  },
+  "main": "Worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranslucentDragon/Scheduler.git"
+  },
+  "keywords": [],
+  "author": "Tucker von Holten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranslucentDragon/Scheduler/issues"
+  },
+  "homepage": "https://github.com/TranslucentDragon/Scheduler#readme"
+}
