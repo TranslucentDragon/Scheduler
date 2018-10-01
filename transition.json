@@ -1,0 +1,14 @@
+{
+  "Background": {
+    "Color": "Grey",
+    "Fade": {
+      "Gradient": 5,
+      "Direction": "Vertical"
+    }
+  },
+  "Transition": {
+    "Direction": "Vertical",
+    "Speed": 0.1,
+    "Sleep": 1
+  }
+}

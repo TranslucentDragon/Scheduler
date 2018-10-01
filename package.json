@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Itential Not Real Stuff",
   "dependencies": {
+    "@angular/animations": "^6.1.9",
+    "@angular/cdk": "^6.4.7",
+    "@angular/material": "^6.4.7",
+    "angular": "^1.7.4",
     "mongodb": "^2.2.26"
   },
   "main": "Worker.js",
