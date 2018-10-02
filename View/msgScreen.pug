@@ -1,1 +1,15 @@
-script(src=)
+doctype html
+head
+  title Scheduler Message Screen
+
+
+  link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald")
+  link(rel="stylesheet" href="../Style/msgStyle.css")
+
+  script(src="/node_modules/angular/angular.js");
+  script(src="../Scripts/msgWorker.js");
+
+body(ng-app="SchedulerMessage")
+  div.page(ng-controller="BackgroundController")
+
+    div.message(ng-controller="MessageController") {{message}}

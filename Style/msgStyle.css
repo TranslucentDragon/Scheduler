@@ -1,0 +1,10 @@
+body {
+  background: #393d4e;
+  font-family: 'Oswald', sans-serif;
+}
+
+.message{
+  background: #fdfdfd;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}

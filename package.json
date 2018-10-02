@@ -7,7 +7,9 @@
     "@angular/cdk": "^6.4.7",
     "@angular/material": "^6.4.7",
     "angular": "^1.7.4",
-    "mongodb": "^2.2.26"
+    "express": "^4.16.3",
+    "mongodb": "^2.2.26",
+    "pug": "^2.0.3"
   },
   "main": "Worker.js",
   "scripts": {
