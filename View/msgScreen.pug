@@ -2,14 +2,19 @@ doctype html
 head
   title Scheduler Message Screen
 
+  block scripts
+    script(type="text/javascript" src="/node_modules/angular/angular.js")
+    script(type="text/javascript" src="/node_modules/angular-aria/angular-aria.js")
+    script(type="text/javascript" src="/node_modules/angular-animate/angular-animate.js")
+    script(type="text/javascript" src="/node_modules/angular-material/angular-material.js")
+    script(type="text/javascript" src="/Script/msgWorker.js")
 
-  link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald")
-  link(rel="stylesheet" href="../Style/msgStyle.css")
+  block links
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald")
+    link(rel="stylesheet" href="/Style/msgStyle.css")
 
-  script(src="/node_modules/angular/angular.js");
-  script(src="../Scripts/msgWorker.js");
-
-body(ng-app="SchedulerMessage")
+body.body(ng-app="Messenger")
   div.page(ng-controller="BackgroundController")
-
+    md-sidenav(ng-if="sideNav")
+    button#sideNavBtn(ng-click="reverseValue(sideNav)")
     div.message(ng-controller="MessageController") {{message}}

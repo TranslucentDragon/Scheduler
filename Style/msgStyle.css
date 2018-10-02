@@ -1,10 +1,24 @@
 body {
-  background: #393d4e;
+  background: #7FDAFF;
   font-family: 'Oswald', sans-serif;
 }
 
 .message{
-  background: #fdfdfd;
+  background: #7FDAFF;
+  color: #fdfdfd;
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#sideNavBtn {
+  background-image: "/Image/3-bar-menu.png";
+  height: 60px;
+  width: 60px;
+  border-radius: 50%
 }
